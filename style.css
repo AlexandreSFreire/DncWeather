@@ -208,3 +208,7 @@ footer p{
     text-decoration: none;
     color: white;
 }
+
+button{
+    cursor: pointer;
+}

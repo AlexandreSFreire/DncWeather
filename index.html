@@ -31,16 +31,16 @@
             <div class="container">
                 <div id="campoform">
                     <label for="nome">Primeiro Nome:</label><br>
-                    <input type="text" id="nome" placeholder="Insira seu primeiro nome:" class="dados"><br>
+                    <input type="text" id="nome" placeholder="Insira seu primeiro nome:" class="dados" required><br>
                     <label for="email">E-mail:</label><br>
-                    <input type="email" id="email" placeholder="Insira seu e-mail" class="dados"><br>
+                    <input type="email" id="email" placeholder="Insira seu e-mail" class="dados" required><br>
                     <label for="cep">CEP</label><br>
                     <input type="text" id="cep" placeholder="Insira o CEP" class="dados"><br>
                     <label for="latitude">Digite a latitude e longidade para saber a previsão:</label><br>
                     <input type="text" id="latitude" placeholder="Latitude" class="tempo">
                     <label for="longitude"></label>
                     <input type="text" id="longitude" placeholder="Longitude" class="tempo"><br>
-                    <button onclick="getAddressByCep(cep), getPrevisao(latitude, longitude)">Acessar</button>
+                    <button onclick="getAddressByCep(cep), getPrevisao(latitude, longitude)" onmouseenter="">Acessar</button>
                 </div>
             </div>
 
